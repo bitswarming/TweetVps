@@ -2,3 +2,8 @@ language: go
 go:
   - 1.7.4
 go_import_path: cmd
+install:
+  - go get github.com/boltdb/bolt
+  - go get github.com/spf13/cobra
+  - go get golang.org/x/crypto/pbkdf2
+  - go get github.com/PuerkitoBio/goquery
