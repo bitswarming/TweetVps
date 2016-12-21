@@ -1,7 +1,7 @@
 language: go
 go:
   - 1.7.4
-go_import_path: cmd
+go_import_path: github.com/bitswarming/TweetVps/cmd
 install:
   - go get github.com/boltdb/bolt
   - go get github.com/spf13/cobra
