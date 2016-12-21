@@ -6,10 +6,6 @@ import (
 	"github.com/boltdb/bolt"
 	"github.com/spf13/cobra"
 	"time"
-	//      "os"
-	//              "io/ioutil"
-	//              "os"
-	//"github.com/davecgh/go-spew/spew"
 )
 
 var SecretPass string
