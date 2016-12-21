@@ -1,6 +1,5 @@
-# tweetvps Drone
-[![Build Status](https://drone.io/github.com/bitswarming/TweetVps/status.png)](https://drone.io/github.com/bitswarming/TweetVps/latest) Travis
-[![Build Status](https://travis-ci.org/bitswarming/TweetVps.svg?branch=master)](https://travis-ci.org/bitswarming/TweetVps)
+# tweetvps 
+Drone [![Build Status](https://drone.io/github.com/bitswarming/TweetVps/status.png)](https://drone.io/github.com/bitswarming/TweetVps/latest) Travis [![Build Status](https://travis-ci.org/bitswarming/TweetVps.svg?branch=master)](https://travis-ci.org/bitswarming/TweetVps)
 
 Service for vps which listens for encypted commands to execute, from your twitter account. If you blocked yourself with iptables or deleted your ssh key, or user this tool is your last chance, before server resetting.
 
