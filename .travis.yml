@@ -1,6 +1,4 @@
 language: go
-go:
-  - 1.7.x
 go_import_path: github.com/bitswarming/TweetVps/cmd
 install:
   - go get github.com/boltdb/bolt
