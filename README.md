@@ -8,4 +8,4 @@ Service for vps server which listens for encypted commands to execute, from your
 1. run `sudo crontab -e` and insert 
 `cd /opt/rebootclient/;
 sudo ./rebootclient daemon --user=$twitteruser --expire=3500 --secret=$secretcode --mydomain=$target --period=$seconds`
-` rebootclient.go encode  --secret=xxx --targetdomain=quad.node.consul --message=reboot:robot.node.consul`
+1. ` rebootclient.go encode  --secret=xxx --targetdomain=quad.node.consul --message=reboot:robot.node.consul`
