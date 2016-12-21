@@ -1,7 +1,7 @@
 package main
 
 import (
-        "./cmd"
+        "github.com/bitswarming/TweetVps/cmd"
         "fmt"
         "os"
 )
