@@ -4,11 +4,12 @@ Service for vps which listens for encypted commands to execute, from your twitte
 
 ## How to use
 1. Create twitter account
-1. clone
-1. run `sudo crontab -e` and insert 
+1. clone build, or download
+1. at vps run `sudo crontab -e` and insert 
 `cd /opt/rebootclient/;
 sudo ./rebootclient daemon --user=$twitteruser --expire=3500 --secret=$secretcode --mydomain=$target --period=$seconds`
-1. ` rebootclient.go encode  --secret=xxx --targetdomain=quad.node.consul --message=reboot:robot.node.consul`
+1. generete encrypted command` rebootclient.go encode  --secret=xxx --targetdomain=quad.node.consul --message=reboot:robot.node.consul`
+1. post command to twitter.
 
 ****
 
