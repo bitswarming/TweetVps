@@ -11,3 +11,5 @@ sudo ./rebootclient daemon --user=$twitteruser --expire=3500 --secret=$secretcod
 1. ` rebootclient.go encode  --secret=xxx --targetdomain=quad.node.consul --message=reboot:robot.node.consul`
 
 [![Build Status](https://drone.io/github.com/bitswarming/TweetVps/status.png)](https://drone.io/github.com/bitswarming/TweetVps/latest)
+
+[![Build Status](https://travis-ci.org/bitswarming/TweetVps.svg?branch=master)](https://travis-ci.org/bitswarming/TweetVps)
