@@ -20,24 +20,6 @@ var MyDomain string
 var db *bolt.DB
 
 func init() {
-	// Read value back in a different read-only transaction.
-	/*var err error
-	db, err = bolt.Open("my.db", 0600, &bolt.Options{Timeout: 1 * time.Second})
-	if err != nil {
-		log.Fatal(err)
-	}
-		if err := db.View(func(tx *bolt.Tx) error {
-			// Create a bucket.
-			b, err := tx.CreateBucketIfNotExists([]byte("DoneCommands"))
-			if err != nil {
-				fmt.Println("bbb")
-				return err
-			}
-			_ = b
-			return nil
-		}); err != nil {
-			log.Fatal(err)
-		}*/
 	fetchCmd.Flags().StringVarP(&User, "user", "", "", "Twitter user name")
 	fetchCmd.Flags().Int64Var(&ExpireTime, "expire", 0, "Seconds after which command is expired, and ignored")
 	fetchCmd.Flags().StringVarP(&Pass, "secret", "", "", "Password for decoding")
