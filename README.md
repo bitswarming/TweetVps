@@ -1,5 +1,5 @@
 # tweetvps
-Service for vps server which listens for encypted commands to execute, from your twitter account. If you blocked yourself with iptables or deleted your ssh key, or user this tool is your last chance, before server resetting.
+Service for vps which listens for encypted commands to execute, from your twitter account. If you blocked yourself with iptables or deleted your ssh key, or user this tool is your last chance, before server resetting.
 
 
 ## How to use
