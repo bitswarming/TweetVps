@@ -1,0 +1,14 @@
+[Unit]
+Description=My application
+After=network.target
+
+[Service]
+Type=oneshot
+TimeoutSec=0
+RemainAfterExit=yes
+User=alex
+RuntimeDirectory=/home/alex
+ExecStart=/usr/bin/sudo nohup /home/alex/rebootclient daemon --user=RondallHanoch --expire=3500 --secret=$secret --mydomain=$target --period=$refreshtime &
+
+[Install]
+WantedBy=multi-user.target
